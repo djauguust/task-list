@@ -1,0 +1,8 @@
+<!-- text y color son variables que vienen, para usar color, hay que utilizar el ngStyle-->
+<button 
+    class="btn" 
+    [ngStyle]="{'background-color': color}"
+    (click)="onClick()"
+    >
+    {{text}}
+</button>
